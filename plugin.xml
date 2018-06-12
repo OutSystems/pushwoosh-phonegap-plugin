@@ -119,7 +119,7 @@
 
 		<source-file src="src/android/src/com/pushwoosh/plugin/pushnotifications/NotificationFactory.java"
 						target-dir="src/com/pushwoosh/plugin/pushnotifications" />
-
+        <framework src="com.google.android.gms:play-services-ads:15.+" />
 		<framework src="com.google.android.gms:play-services-gcm:12.+" />
 		<framework src="com.google.android.gms:play-services-location:12.+" />
 		<framework src="com.android.support:support-v4:25.+" />
